@@ -3,7 +3,7 @@ name: Build and Push Docker Image to ECR
 on:
   push:
     branches:
-      - main  # Trigger only on main branch pushes
+      - main  # Trigger only on main branch pushes.
 
 env:
   AWS_REGION: us-east-1             # Update to your AWS region
